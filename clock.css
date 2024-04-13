@@ -1,0 +1,37 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #292c34; /* Dark blue background color */
+    padding: 50px; /* Margin and padding to center align the clock */
+}
+
+h2 {
+    color: #fff; /* White color for the heading */
+}
+
+.countdown {
+    font-size: 36px;
+    margin: 20px; /* Margin for the countdown clock */
+    padding: 20px; /* Padding for the countdown clock */
+    background-color: #333; /* Dark gray background color for the clock */
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.countdown span {
+    color: #fff; /* White color for numbers */
+}
+
+.countdown .hour {
+    color: #ff6347; /* Hour color (red) */
+}
+
+.countdown .minute {
+    color: #4682b4; /* Minute color (blue) */
+}
+
+.countdown .second {
+    color: #32cd32; /* Second color (green) */
+}
